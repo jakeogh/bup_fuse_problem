@@ -28,3 +28,7 @@ bup fuse bup_fuse
 tree bup_fuse
 
 sha1sum bup_fuse/fuseproblemdemo/latest/n6uc8p7yxjoz.jpg # wrong! d3d62a846d1492c2e08aeb9bed04321e38252b5b
+
+#sudo umount bup_fuse
+
+
