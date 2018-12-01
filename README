@@ -1,0 +1,30 @@
+$ ./demonstrate_fuse_problem.sh 
+--2018-12-01 13:55:18--  https://i.redd.it/n6uc8p7yxjoz.jpg
+Resolving i.redd.it (i.redd.it)... 151.101.1.140, 151.101.65.140, 151.101.129.140, ...
+Connecting to i.redd.it (i.redd.it)|151.101.1.140|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1201189 (1.1M) [image/jpeg]
+Saving to: ‘source_file/n6uc8p7yxjoz.jpg’
+
+source_file/n6uc8p7yxjoz.jpg     100%[=======================================================>]   1.15M   838KB/s    in 1.4s    
+
+2018-12-01 13:55:20 (838 KB/s) - ‘source_file/n6uc8p7yxjoz.jpg’ saved [1201189/1201189]
+
+01ca12c4daac369e7d9bd9d91e20c43de37707e2  source_file/n6uc8p7yxjoz.jpg
+0.29.1-158-g178805d                                                                                                              
+Initialized empty Git repository in /home/cfg/_myapps/bup_fuse_problem/1543697718/bup_repo/                                      
+Indexing: 2, done (1812 paths/s).                                                                                                
+Reading index: 2, done.                                                                                                          
+Saving: 99.66% (1173/1177k, 2/2 files), done.                                                                                    
+fuseproblemdemo/latest/n6uc8p7yxjoz.jpg                                                                                          
+01ca12c4daac369e7d9bd9d91e20c43de37707e2  -
+bup_fuse
+└── fuseproblemdemo
+    ├── 2018-12-01-135521
+    │   └── n6uc8p7yxjoz.jpg
+    └── latest
+        └── n6uc8p7yxjoz.jpg
+
+3 directories, 2 files
+d3d62a846d1492c2e08aeb9bed04321e38252b5b  bup_fuse/fuseproblemdemo/latest/n6uc8p7yxjoz.jpg
+
